@@ -1,0 +1,25 @@
+.skills {
+  font-size: 1em;
+}
+.title {
+  margin: 1em 0 0.5em 0;
+  text-align: left;
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--white);
+}
+.icon,
+.img {
+  width: 1.36em;
+  height: 1.36em;
+  fill: var(--white);
+  margin-left: 0.3em;
+}
+.contactBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.contactBox span {
+  font-weight: 500;
+}

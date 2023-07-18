@@ -1,0 +1,55 @@
+.title {
+  font-size: 2em;
+  font-weight: 700;
+
+  letter-spacing: 0.05em;
+  color: var(--orange);
+}
+.item {
+  margin: 1em 0;
+  padding: 0.5em;
+  border: 0.1em solid var(--maintextcolor);
+  border-radius: 0.5em;
+  transition: all 0.3s ease-in-out;
+}
+.description,
+.stack,
+.link {
+  display: flex;
+  align-items: center;
+}
+.description,
+.stack {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: var(--secondTextColor);
+  transition: all 0.3s ease-in-out;
+}
+.img {
+  width: 15em;
+  border-radius: 0.3em;
+}
+.info {
+  margin-left: 1em;
+}
+.name {
+  color: var(--black);
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  transition: all 0.3s ease-in-out;
+}
+.icon {
+  margin-right: 1em;
+  width: 1.5em;
+  fill: var(--secondTextColor);
+}
+
+.item:hover,
+.item:focus {
+  scale: 1.02;
+}
+.item:hover .name,
+.item:focus .name {
+  color: var(--orange);
+}

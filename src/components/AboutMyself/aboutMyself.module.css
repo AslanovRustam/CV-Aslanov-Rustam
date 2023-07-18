@@ -1,0 +1,23 @@
+.titleJob,
+.titleName {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  font-weight: 600;
+  color: var(--black);
+}
+.titleName {
+  margin: 0.5em 0;
+  font-size: 4em;
+  font-weight: 700;
+}
+.item {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+.subTitle {
+  color: var(--black);
+  font-weight: 700;
+}
+.description {
+  color: var(--secondTextColor);
+}
