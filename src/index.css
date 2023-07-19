@@ -20,7 +20,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: Stolzl;
   font-style: normal;
   font-weight: 400;
   color: #adb1b7;
@@ -37,4 +37,14 @@ main {
   grid-template-columns: 0.3fr 1fr;
   gap: 1em;
   padding: 1em 2em;
+}
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 700;
+  src: local("Stolzl"), url(./fonts/Bold.otf);
+}
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 400;
+  src: local("Stolzl"), url(./fonts/Regular.otf);
 }

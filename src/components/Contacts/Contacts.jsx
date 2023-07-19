@@ -1,5 +1,5 @@
-import s from "./contacts.module.css";
 import Sprite from "../../images/sprite.svg";
+import s from "./contacts.module.css";
 
 export default function Contacts() {
   return (

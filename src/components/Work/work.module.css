@@ -1,0 +1,43 @@
+.title {
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1.98;
+  letter-spacing: 0.02em;
+  color: var(--orange);
+}
+.details {
+  margin: 0 0 2em 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.1em solid var(--maintextcolor);
+}
+.subTitle,
+.position,
+.positionNot {
+  font-size: 1.5em;
+  line-height: 1.98;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.positionNot {
+  font-size: 1em;
+}
+.date {
+  font-weight: 400;
+  font-size: 1em;
+}
+.link {
+  font-weight: 700;
+  line-height: 1.98;
+  letter-spacing: 0.02em;
+  transition: 0.3s all ease-in-out;
+}
+.link:hover,
+.link:focus {
+  color: var(--orange);
+}
+.description {
+  font-size: 1.2em;
+  color: var(--secondTextColor);
+}

@@ -78,12 +78,31 @@ export const projects = [
       "Site with basical information about Star-Wars universe, including films, species, people, planets, starships and vehicles ",
     stack: "React, JS, CSS, HTML, API, NPM",
   },
+  // {
+  //   id: 1,
+  //   name: "Pomodoro",
+  //   image: pomodoro,
+  //   url: "https://aslanovrustam.github.io/pomodoro/",
+  //   description: "Own wersion of Pomodoro application",
+  //   stack: "React, JS, CSS, HTML",
+  // },
+];
+
+export const experience = [
   {
-    id: 1,
-    name: "Pomodoro",
-    image: pomodoro,
-    url: "https://aslanovrustam.github.io/pomodoro/",
-    description: "Own wersion of Pomodoro application",
-    stack: "React, JS, CSS, HTML",
+    date: "Jun 2021 - up to now | Ukraine",
+    place: "Clickable Agency",
+    position: "Front-end developer",
+    link: "https://clickable.agency/",
+    description:
+      "Developing cross-browser and responsive frontend UI, creating efficient and reusable UI components, project time estimate. Leading the front-end development team and help team-members grow and develop their skills. Collaborating with desiners/managers/QA teams and management of the company",
+  },
+  {
+    date: "October 2022 - up to now | Ukraine",
+    place: "GoIT",
+    position: "Teacher, Mentor",
+    link: "https://goit.global/ua/",
+    description:
+      "Providing support and mentoring to students,track student progress and provide feedback and recommendations to improve their skills, code review, conducting practical classes",
   },
 ];

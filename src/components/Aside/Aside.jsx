@@ -1,7 +1,7 @@
-import s from "./aside.module.css";
-import photo from "../../images/photo.jpg";
 import Contacts from "../Contacts/Contacts";
 import Skills from "../Skills/Skills";
+import photo from "../../images/photo.jpg";
+import s from "./aside.module.css";
 
 export default function Aside() {
   return (
