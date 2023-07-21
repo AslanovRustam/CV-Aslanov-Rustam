@@ -3,7 +3,7 @@ import s from "./contacts.module.css";
 
 export default function Contacts() {
   return (
-    <>
+    <div className={s.container}>
       <h2 className={s.title}>Contacts</h2>
       <ul className={s.contacts}>
         <li>
@@ -62,6 +62,6 @@ export default function Contacts() {
           </a>
         </li>
       </ul>
-    </>
+    </div>
   );
 }

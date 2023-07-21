@@ -56,3 +56,9 @@
 .item:focus .name {
   color: var(--orange);
 }
+@media screen and (max-width: 426px) {
+  .title,
+  .list {
+    font-size: 2em;
+  }
+}

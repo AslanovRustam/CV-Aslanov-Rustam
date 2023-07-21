@@ -2,7 +2,7 @@ import s from "./aboutMyself.module.css";
 
 export default function AboutMuself() {
   return (
-    <>
+    <div className={s.container}>
       <h2 className={s.titleJob}>Front-End Developer</h2>
       <p className={s.titleName}>Aslanov Rustam</p>
       <ul className={s.summary}>
@@ -33,6 +33,6 @@ export default function AboutMuself() {
           </span>
         </li>
       </ul>
-    </>
+    </div>
   );
 }

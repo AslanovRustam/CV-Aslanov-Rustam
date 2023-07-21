@@ -1,5 +1,6 @@
 @import url(../../vars.css);
 .aside {
+  position: relative;
   padding: 1em;
   text-align: center;
   border-top-left-radius: 1em;
@@ -8,6 +9,35 @@
 }
 .photo {
   width: 20em;
+  height: 20em;
   border-radius: 50%;
   text-align: center;
+}
+.mobSubTitle {
+  display: none;
+}
+@media screen and (max-width: 426px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .aside {
+    display: flex;
+    border-radius: 1em;
+  }
+  .photo {
+    margin: auto 0;
+  }
+  .mobSubTitle {
+    height: 100%;
+    font-size: 2.3em;
+    padding: 0.5em;
+    display: flex;
+    background-color: var(--white);
+    color: var(--black);
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }

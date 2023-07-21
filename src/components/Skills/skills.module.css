@@ -23,3 +23,14 @@
 .contactBox span {
   font-weight: 500;
 }
+@media screen and (max-width: 426px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin: 0 1em;
+  }
+  .title {
+    margin: 0 0 0.5em 0;
+  }
+}
