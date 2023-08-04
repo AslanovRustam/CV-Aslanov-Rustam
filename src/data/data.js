@@ -7,8 +7,18 @@ import gira from "../images/Gira.jpg";
 import junket from "../images/readme.png";
 import verifiedX from "../images/VerifiedX.png";
 import foam from "../images/readme_home.jpg";
+import trueplay from "../images/trueplay.jpg";
 
 export const projects = [
+  {
+    id: 10,
+    name: "AuditBet landing",
+    image: trueplay,
+    url: "https://aslanovrustam.github.io/true-landing/",
+    description:
+      "Routed SPA - is a beautifully designed landing page built to showcase a product or service",
+    stack: "React, JS, CSS, HTML",
+  },
   {
     id: 9,
     name: "E-com Foam shop",
@@ -100,7 +110,7 @@ export const experience = [
   {
     date: "October 2022 - up to now | Ukraine",
     place: "GoIT",
-    position: "Teacher, Mentor",
+    position: "Teacher, Mentor(course React)",
     link: "https://goit.global/ua/",
     description:
       "Providing support and mentoring to students,track student progress and provide feedback and recommendations to improve their skills, code review, conducting practical classes",
