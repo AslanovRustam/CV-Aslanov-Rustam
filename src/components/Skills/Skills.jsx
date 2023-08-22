@@ -50,7 +50,7 @@ export default function Skills() {
             </svg>
           </li>
           <li className={s.contactBox}>
-            <span>Git, GitHub, Netlify, GitLab</span>
+            <span>Git, GitHub, GitLab</span>
             <span>
               <svg className={s.icon}>
                 <use href={`${Sprite}#icon-git`}></use>
@@ -58,9 +58,9 @@ export default function Skills() {
               <svg className={s.icon}>
                 <use href={`${Sprite}#icon-github`}></use>
               </svg>
-              <svg className={s.icon}>
+              {/* <svg className={s.icon}>
                 <use href={`${Sprite}#icon-netlify`}></use>
-              </svg>
+              </svg> */}
               <img className={s.img} src={gitLab} alt="gitlab icon" />
             </span>
           </li>

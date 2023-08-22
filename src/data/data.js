@@ -8,8 +8,18 @@ import junket from "../images/readme.png";
 import verifiedX from "../images/VerifiedX.png";
 import foam from "../images/readme_home.jpg";
 import trueplay from "../images/trueplay.jpg";
+import aiForm from "../images/form.jpg";
 
 export const projects = [
+  {
+    id: 11,
+    name: "AI Form",
+    image: aiForm,
+    url: "https://aslanovrustam.github.io/form/",
+    description:
+      "an app built with React, HTML, CSS and JS. It allows users to fill out a multilingual AI-designed form.",
+    stack: "React, JS, CSS, HTML",
+  },
   {
     id: 10,
     name: "AuditBet landing",
@@ -55,14 +65,14 @@ export const projects = [
       "This is an application allows users to make spin of the wheel and get one/two bonuses, displayed by the modal",
     stack: "React, HTML, CSS, JS",
   },
-  {
-    id: 5,
-    name: "Photo/Video/Music-finder",
-    image: stock,
-    url: "https://aslanovrustam.github.io/stock/",
-    description: "App for searching images/photos/music",
-    stack: "React, JS, HTML, CSS, REST API",
-  },
+  // {
+  //   id: 5,
+  //   name: "Photo/Video/Music-finder",
+  //   image: stock,
+  //   url: "https://aslanovrustam.github.io/stock/",
+  //   description: "App for searching images/photos/music",
+  //   stack: "React, JS, HTML, CSS, REST API",
+  // },
   {
     id: 4,
     name: "Movie-finder",
