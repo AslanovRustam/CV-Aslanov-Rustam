@@ -18,7 +18,7 @@ export const projects = [
     url: "https://aslanovrustam.github.io/form/",
     description:
       "an app built with React, HTML, CSS and JS. It allows users to fill out a multilingual AI-designed form.",
-    stack: "React, JS, CSS, HTML",
+    stack: "React, JS, CSS, HTML, Spine animation",
   },
   {
     id: 10,
