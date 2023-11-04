@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV-Aslanov-Rustam/static/css/main.891917c7.css",
-    "main.js": "/CV-Aslanov-Rustam/static/js/main.04bdfb1b.js",
+    "main.js": "/CV-Aslanov-Rustam/static/js/main.c17caeaf.js",
     "static/media/Stock.jpg": "/CV-Aslanov-Rustam/static/media/Stock.c9d44c2a6e1e4705157b.jpg",
     "static/media/starWars.jpg": "/CV-Aslanov-Rustam/static/media/starWars.74335403cccd36a18a7e.jpg",
     "static/media/movie-finder.jpg": "/CV-Aslanov-Rustam/static/media/movie-finder.fc79f0f94874dfd67a78.jpg",
@@ -9,6 +9,7 @@
     "static/media/Gira.jpg": "/CV-Aslanov-Rustam/static/media/Gira.1c4e73449a7d30f6fa74.jpg",
     "static/media/form.jpg": "/CV-Aslanov-Rustam/static/media/form.a589f9e070ba629ea9ad.jpg",
     "static/media/readme.png": "/CV-Aslanov-Rustam/static/media/readme.c6f7de43437658aca64a.png",
+    "static/media/Kreyda.jpg": "/CV-Aslanov-Rustam/static/media/Kreyda.5a5dcd9183286d413a0f.jpg",
     "static/media/phonebook.jpg": "/CV-Aslanov-Rustam/static/media/phonebook.caeed6cfebbd63c5274e.jpg",
     "static/media/VerifiedX.png": "/CV-Aslanov-Rustam/static/media/VerifiedX.08b8a3d744d50eb63c31.png",
     "static/media/readme_home.jpg": "/CV-Aslanov-Rustam/static/media/readme_home.197bc5a9e8ed8c629030.jpg",
@@ -22,10 +23,10 @@
     "index.html": "/CV-Aslanov-Rustam/index.html",
     "static/media/description.svg": "/CV-Aslanov-Rustam/static/media/description.82dbd578a28dbe927654f87f5bced31e.svg",
     "main.891917c7.css.map": "/CV-Aslanov-Rustam/static/css/main.891917c7.css.map",
-    "main.04bdfb1b.js.map": "/CV-Aslanov-Rustam/static/js/main.04bdfb1b.js.map"
+    "main.c17caeaf.js.map": "/CV-Aslanov-Rustam/static/js/main.c17caeaf.js.map"
   },
   "entrypoints": [
     "static/css/main.891917c7.css",
-    "static/js/main.04bdfb1b.js"
+    "static/js/main.c17caeaf.js"
   ]
 }
