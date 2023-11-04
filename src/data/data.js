@@ -9,8 +9,18 @@ import verifiedX from "../images/VerifiedX.png";
 import foam from "../images/readme_home.jpg";
 import trueplay from "../images/trueplay.jpg";
 import aiForm from "../images/form.jpg";
+import kreyda from "../images/Kreyda.jpg";
 
 export const projects = [
+  {
+    id: 12,
+    name: "Kreyda Agency",
+    image: kreyda,
+    url: "https://aslanovrustam.github.io/creyda/",
+    description:
+      "project for Creative Agency 'Kreyda' - is agency specializing in website development, creating designs, illustrations, and motion design",
+    stack: "React, JS, CSS, HTML",
+  },
   {
     id: 11,
     name: "AI Form",
