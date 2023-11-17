@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV-Aslanov-Rustam/static/css/main.891917c7.css",
-    "main.js": "/CV-Aslanov-Rustam/static/js/main.c17caeaf.js",
+    "main.css": "/CV-Aslanov-Rustam/static/css/main.f3ef684b.css",
+    "main.js": "/CV-Aslanov-Rustam/static/js/main.5f3092a2.js",
     "static/media/Stock.jpg": "/CV-Aslanov-Rustam/static/media/Stock.c9d44c2a6e1e4705157b.jpg",
     "static/media/starWars.jpg": "/CV-Aslanov-Rustam/static/media/starWars.74335403cccd36a18a7e.jpg",
     "static/media/movie-finder.jpg": "/CV-Aslanov-Rustam/static/media/movie-finder.fc79f0f94874dfd67a78.jpg",
@@ -13,6 +13,7 @@
     "static/media/phonebook.jpg": "/CV-Aslanov-Rustam/static/media/phonebook.caeed6cfebbd63c5274e.jpg",
     "static/media/VerifiedX.png": "/CV-Aslanov-Rustam/static/media/VerifiedX.08b8a3d744d50eb63c31.png",
     "static/media/readme_home.jpg": "/CV-Aslanov-Rustam/static/media/readme_home.197bc5a9e8ed8c629030.jpg",
+    "static/media/pomodoro2.jpg": "/CV-Aslanov-Rustam/static/media/pomodoro2.76add9d2dfa31017d8bf.jpg",
     "static/media/Regular.otf": "/CV-Aslanov-Rustam/static/media/Regular.9603d48be34f3721c9c6.otf",
     "static/media/Bold.otf": "/CV-Aslanov-Rustam/static/media/Bold.e7dbff6869476c4643de.otf",
     "static/media/pomodoro.jpg": "/CV-Aslanov-Rustam/static/media/pomodoro.5f85c9c9fda3c7c17ed3.jpg",
@@ -21,12 +22,11 @@
     "static/media/photo.jpg": "/CV-Aslanov-Rustam/static/media/photo.cf6bca71c95b7944791f.jpg",
     "static/media/tools.svg": "/CV-Aslanov-Rustam/static/media/tools.aae94336872b6a0b2689af5c5b1c9191.svg",
     "index.html": "/CV-Aslanov-Rustam/index.html",
-    "static/media/description.svg": "/CV-Aslanov-Rustam/static/media/description.82dbd578a28dbe927654f87f5bced31e.svg",
-    "main.891917c7.css.map": "/CV-Aslanov-Rustam/static/css/main.891917c7.css.map",
-    "main.c17caeaf.js.map": "/CV-Aslanov-Rustam/static/js/main.c17caeaf.js.map"
+    "main.f3ef684b.css.map": "/CV-Aslanov-Rustam/static/css/main.f3ef684b.css.map",
+    "main.5f3092a2.js.map": "/CV-Aslanov-Rustam/static/js/main.5f3092a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.891917c7.css",
-    "static/js/main.c17caeaf.js"
+    "static/css/main.f3ef684b.css",
+    "static/js/main.5f3092a2.js"
   ]
 }
