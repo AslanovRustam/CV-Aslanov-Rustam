@@ -22,7 +22,7 @@
 .position {
   color: var(--black);
 }
-@media screen and (max-width: 426px) {
+@media (orientation: portrait) {
   .container {
     font-size: 2em;
   }

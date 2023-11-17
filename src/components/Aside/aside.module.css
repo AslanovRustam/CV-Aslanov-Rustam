@@ -16,13 +16,14 @@
 .mobSubTitle {
   display: none;
 }
-@media screen and (max-width: 426px) {
+@media (orientation: portrait) {
   main {
     grid-template-columns: 1fr;
   }
   .aside {
     display: flex;
     border-radius: 1em;
+    font-size: 1.1em;
   }
   .photo {
     margin: auto 0;

@@ -10,15 +10,25 @@ import foam from "../images/readme_home.jpg";
 import trueplay from "../images/trueplay.jpg";
 import aiForm from "../images/form.jpg";
 import kreyda from "../images/Kreyda.jpg";
+import pomodoro2 from "../images/pomodoro2.jpg";
 
 export const projects = [
+  {
+    id: 12,
+    name: "Pomodoro 2.0",
+    image: pomodoro2,
+    url: "https://aslanovrustam.github.io/pomodoro_2.0/",
+    description:
+      "An application for using the 'Pomodoro' technique, which helps to better manage time and increase productivity",
+    stack: "React, JS, CSS, HTML",
+  },
   {
     id: 12,
     name: "Kreyda Agency",
     image: kreyda,
     url: "https://aslanovrustam.github.io/creyda/",
     description:
-      "project for Creative Agency 'Kreyda' - is agency specializing in website development, creating designs, illustrations, and motion design",
+      "Project for Creative Agency 'Kreyda' - is agency specializing in website development, creating designs, illustrations, and motion design",
     stack: "React, JS, CSS, HTML",
   },
   {
@@ -27,7 +37,7 @@ export const projects = [
     image: aiForm,
     url: "https://aslanovrustam.github.io/form/",
     description:
-      "an app built with React, HTML, CSS and JS. It allows users to fill out a multilingual AI-designed form.",
+      "An app built with React, HTML, CSS and JS. It allows users to fill out a multilingual AI-designed form.",
     stack: "React, JS, CSS, HTML, Spine animation",
   },
   {

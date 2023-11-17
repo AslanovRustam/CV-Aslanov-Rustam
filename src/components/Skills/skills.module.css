@@ -23,7 +23,7 @@
 .contactBox span {
   font-weight: 500;
 }
-@media screen and (max-width: 426px) {
+@media (orientation: portrait) {
   .container {
     display: flex;
     flex-direction: column;
