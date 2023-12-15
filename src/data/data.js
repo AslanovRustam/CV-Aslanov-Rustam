@@ -11,8 +11,18 @@ import trueplay from "../images/trueplay.jpg";
 import aiForm from "../images/form.jpg";
 import kreyda from "../images/Kreyda.jpg";
 import pomodoro2 from "../images/pomodoro2.jpg";
+import weft from "../images/weft.jpg";
 
 export const projects = [
+  {
+    id: 13,
+    name: "WEFT app",
+    image: weft,
+    url: "https://aslanovrustam.github.io/weft/",
+    description:
+      "single page application provides you to join to the gaming comunity around the world and tells about all the benefits of working with them",
+    stack: "React, JS, CSS, HTML",
+  },
   {
     id: 12,
     name: "Pomodoro 2.0",
@@ -99,7 +109,7 @@ export const projects = [
     image: movie,
     url: "https://aslanovrustam.github.io/movies/",
     description: "Movie finder app with actors details and reviews ",
-    stack: "React, JS, CSS, HTML, REST API, AXIOS",
+    stack: "React, JS, CSS, HTML, REST API",
   },
   {
     id: 3,
@@ -107,7 +117,7 @@ export const projects = [
     image: phonebook,
     url: "https://aslanovrustam.github.io/phonebook/",
     description: "App for working with private collections of contacts ",
-    stack: "React, Redux, JS, CSS, HTML, REST API, AXIOS",
+    stack: "React, Redux, JS, CSS, HTML, REST API",
   },
   {
     id: 2,
@@ -116,7 +126,7 @@ export const projects = [
     url: "https://aslanovrustam.github.io/star_wars/",
     description:
       "Site with basical information about Star-Wars universe, including films, species, people, planets, starships and vehicles ",
-    stack: "React, JS, CSS, HTML, API, NPM",
+    stack: "React, JS, CSS, HTML, API",
   },
   // {
   //   id: 1,
