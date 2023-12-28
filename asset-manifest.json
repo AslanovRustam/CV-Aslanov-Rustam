@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV-Aslanov-Rustam/static/css/main.f3ef684b.css",
-    "main.js": "/CV-Aslanov-Rustam/static/js/main.6f1b7336.js",
+    "main.css": "/CV-Aslanov-Rustam/static/css/main.fd233c3a.css",
+    "main.js": "/CV-Aslanov-Rustam/static/js/main.4b776a6a.js",
     "static/media/Stock.jpg": "/CV-Aslanov-Rustam/static/media/Stock.c9d44c2a6e1e4705157b.jpg",
     "static/media/starWars.jpg": "/CV-Aslanov-Rustam/static/media/starWars.74335403cccd36a18a7e.jpg",
     "static/media/movie-finder.jpg": "/CV-Aslanov-Rustam/static/media/movie-finder.fc79f0f94874dfd67a78.jpg",
@@ -23,11 +23,11 @@
     "static/media/photo.jpg": "/CV-Aslanov-Rustam/static/media/photo.cf6bca71c95b7944791f.jpg",
     "static/media/tools.svg": "/CV-Aslanov-Rustam/static/media/tools.aae94336872b6a0b2689af5c5b1c9191.svg",
     "index.html": "/CV-Aslanov-Rustam/index.html",
-    "main.f3ef684b.css.map": "/CV-Aslanov-Rustam/static/css/main.f3ef684b.css.map",
-    "main.6f1b7336.js.map": "/CV-Aslanov-Rustam/static/js/main.6f1b7336.js.map"
+    "main.fd233c3a.css.map": "/CV-Aslanov-Rustam/static/css/main.fd233c3a.css.map",
+    "main.4b776a6a.js.map": "/CV-Aslanov-Rustam/static/js/main.4b776a6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3ef684b.css",
-    "static/js/main.6f1b7336.js"
+    "static/css/main.fd233c3a.css",
+    "static/js/main.4b776a6a.js"
   ]
 }
