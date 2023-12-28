@@ -65,7 +65,7 @@ export const projects = [
     image: foam,
     url: "https://aslanovrustam.github.io/foam/",
     description:
-      "E-com Foam Store, where you can choose the type of foam you need, from the list of available ones, which covers all possible foam options for you!",
+      "E-com Foam Store, where you can choose the type of foam you need, from the list of available ones, which covers all possible foam options",
     stack: "React, JS, CSS, HTML",
   },
   {

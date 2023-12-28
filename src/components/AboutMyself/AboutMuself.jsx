@@ -15,8 +15,8 @@ export default function AboutMuself() {
         <li className={s.item}>
           <span className={s.subTitle}>Goals: </span>
           <span className={s.description}>
-            to be part of the IT community, be helpful in resolving customer
-            issues, continue to develop at the IT field
+            be helpful in resolving customer issues, continue to develop at the
+            IT field
           </span>
         </li>
         <li className={s.item}>

@@ -41,7 +41,7 @@
   font-size: 1.2em;
   color: var(--secondTextColor);
 }
-@media (orientation: portrait) {
+@media screen and (max-width: 426px) {
   .section {
     font-size: 2em;
   }

@@ -16,7 +16,7 @@
 .mobSubTitle {
   display: none;
 }
-@media (orientation: portrait) {
+@media screen and (max-width: 426px) {
   main {
     grid-template-columns: 1fr;
   }
