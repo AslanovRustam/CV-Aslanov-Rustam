@@ -2,6 +2,8 @@ import s from "./skills.module.css";
 import Sprite from "../../images/sprite.svg";
 import parcel from "../../images/parcel.png";
 import gitLab from "../../images/gitLab.png";
+import ts from "../../images/Typescript_logo_2020.svg";
+import next from "../../images/nextjs.png";
 
 export default function Skills() {
   return (
@@ -27,10 +29,11 @@ export default function Skills() {
             </span>
           </li>
           <li className={s.contactBox}>
-            <span>JS</span>
+            <span>JS, TS</span>
             <svg className={s.icon}>
               <use href={`${Sprite}#icon-javascript`}></use>
-            </svg>
+            </svg>{" "}
+            <img className={s.img} src={ts} alt="TS icon" />
           </li>
           <li className={s.contactBox}>
             <span>React, Redux, RTK</span>
@@ -42,6 +45,10 @@ export default function Skills() {
                 <use href={`${Sprite}#icon-redux`}></use>
               </svg>
             </span>
+          </li>
+          <li className={s.contactBox}>
+            <span>Next.js</span>
+            <img className={s.img} src={next} alt="next.js icon" />
           </li>
           <li className={s.contactBox}>
             <span>Node.js(beginer)</span>

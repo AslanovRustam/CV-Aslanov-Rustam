@@ -15,6 +15,7 @@
   fill: var(--white);
   margin-left: 0.3em;
 }
+
 .contactBox {
   display: flex;
   align-items: center;
@@ -22,6 +23,13 @@
 }
 .contactBox span {
   font-weight: 500;
+}
+.whiteBg {
+  background-color: white;
+  width: 1.36em;
+  height: 1.36em;
+  margin-left: 0.3em;
+  border-radius: 50%;
 }
 @media screen and (max-width: 426px) {
   .container {
