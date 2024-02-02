@@ -92,8 +92,12 @@ export default function Skills() {
       <div className={s.container}>
         <h2 className={s.title}>Soft Skills</h2>
         <ul className={s.skills}>
-          <li className={s.contactBox}>GTD</li>
           <li className={s.contactBox}>Teamwork</li>
+          <li className={s.contactBox}>Time management</li>
+          <li className={s.contactBox}>Attention to detail</li>
+          <li className={s.contactBox}>Self motivation</li>
+          <li className={s.contactBox}>Problem solving</li>
+          <li className={s.contactBox}>Honesty</li>
         </ul>
         <h2 className={s.title}>Language Skills</h2>
         <ul className={s.skills}>
