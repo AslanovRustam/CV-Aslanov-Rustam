@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV-Aslanov-Rustam/static/css/main.d8bdc97f.css",
-    "main.js": "/CV-Aslanov-Rustam/static/js/main.6a13093f.js",
+    "main.js": "/CV-Aslanov-Rustam/static/js/main.fd57a0bf.js",
     "static/media/Stock.jpg": "/CV-Aslanov-Rustam/static/media/Stock.c9d44c2a6e1e4705157b.jpg",
     "static/media/starWars.jpg": "/CV-Aslanov-Rustam/static/media/starWars.74335403cccd36a18a7e.jpg",
     "static/media/movie-finder.jpg": "/CV-Aslanov-Rustam/static/media/movie-finder.fc79f0f94874dfd67a78.jpg",
@@ -26,10 +26,10 @@
     "static/media/Typescript_logo_2020.svg": "/CV-Aslanov-Rustam/static/media/Typescript_logo_2020.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
     "index.html": "/CV-Aslanov-Rustam/index.html",
     "main.d8bdc97f.css.map": "/CV-Aslanov-Rustam/static/css/main.d8bdc97f.css.map",
-    "main.6a13093f.js.map": "/CV-Aslanov-Rustam/static/js/main.6a13093f.js.map"
+    "main.fd57a0bf.js.map": "/CV-Aslanov-Rustam/static/js/main.fd57a0bf.js.map"
   },
   "entrypoints": [
     "static/css/main.d8bdc97f.css",
-    "static/js/main.6a13093f.js"
+    "static/js/main.fd57a0bf.js"
   ]
 }
