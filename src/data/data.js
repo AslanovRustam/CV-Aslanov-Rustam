@@ -12,8 +12,18 @@ import aiForm from "../images/form.jpg";
 import kreyda from "../images/Kreyda.jpg";
 import pomodoro2 from "../images/pomodoro2.jpg";
 import weft from "../images/weft.jpg";
+import crm from "../images/crm.jpg";
 
 export const projects = [
+  {
+    id: 14,
+    name: "CRM dashboard",
+    image: crm,
+    url: "https://crm-dashboard-blond.vercel.app/",
+    description:
+      "CRM Dashboard application built with Next.js and TypeScript. It provides a user-friendly interface for managing information about companies and their promo.",
+    stack: "Next.js, TS, RTK",
+  },
   {
     id: 13,
     name: "WEFT app",
@@ -21,7 +31,7 @@ export const projects = [
     url: "https://aslanovrustam.github.io/weft/",
     description:
       "single page application provides you to join to the gaming comunity around the world and tells about all the benefits of working with them",
-    stack: "React, JS, CSS, HTML",
+    stack: "React, JS",
   },
   {
     id: 12,
@@ -30,7 +40,7 @@ export const projects = [
     url: "https://aslanovrustam.github.io/pomodoro_2.0/",
     description:
       "An application for using the 'Pomodoro' technique, which helps to better manage time and increase productivity",
-    stack: "React, JS, CSS, HTML",
+    stack: "React, JS",
   },
   {
     id: 12,
@@ -39,7 +49,7 @@ export const projects = [
     url: "https://aslanovrustam.github.io/creyda/",
     description:
       "Project for Creative Agency 'Kreyda' - is agency specializing in website development, creating designs, illustrations, and motion design",
-    stack: "React, JS, CSS, HTML",
+    stack: "React, JS",
   },
   {
     id: 11,
@@ -48,7 +58,7 @@ export const projects = [
     url: "https://aslanovrustam.github.io/form/",
     description:
       "An app built with React, HTML, CSS and JS. It allows users to fill out a multilingual AI-designed form.",
-    stack: "React, JS, CSS, HTML, Spine animation",
+    stack: "React, JS, Spine animation",
   },
   {
     id: 10,
@@ -57,17 +67,17 @@ export const projects = [
     url: "https://aslanovrustam.github.io/true-landing/",
     description:
       "Routed SPA - is a beautifully designed landing page built to showcase a product or service",
-    stack: "React, JS, CSS, HTML",
+    stack: "React, JS",
   },
-  {
-    id: 9,
-    name: "E-com Foam shop",
-    image: foam,
-    url: "https://aslanovrustam.github.io/foam/",
-    description:
-      "E-com Foam Store, where you can choose the type of foam you need, from the list of available ones, which covers all possible foam options",
-    stack: "React, JS, CSS, HTML",
-  },
+  // {
+  //   id: 9,
+  //   name: "E-com Foam shop",
+  //   image: foam,
+  //   url: "https://aslanovrustam.github.io/foam/",
+  //   description:
+  //     "E-com Foam Store, where you can choose the type of foam you need, from the list of available ones, which covers all possible foam options",
+  //   stack: "React, JS",
+  // },
   {
     id: 8,
     name: "Landing page VerifiedX",
@@ -75,7 +85,7 @@ export const projects = [
     url: "https://aslanovrustam.github.io/verifiedx/",
     description:
       "Landing page for creative startup. This single page application using routing and contains 2 routes",
-    stack: "React, JS, CSS, HTML",
+    stack: "React, JS",
   },
   {
     id: 7,
@@ -109,25 +119,25 @@ export const projects = [
     image: movie,
     url: "https://aslanovrustam.github.io/movies/",
     description: "Movie finder app with actors details and reviews ",
-    stack: "React, JS, CSS, HTML, REST API",
+    stack: "React, JS, REST API",
   },
-  {
-    id: 3,
-    name: "phonebook",
-    image: phonebook,
-    url: "https://aslanovrustam.github.io/phonebook/",
-    description: "App for working with private collections of contacts ",
-    stack: "React, Redux, JS, CSS, HTML, REST API",
-  },
-  {
-    id: 2,
-    name: "Star-Wars",
-    image: starWars,
-    url: "https://aslanovrustam.github.io/star_wars/",
-    description:
-      "Site with basical information about Star-Wars universe, including films, species, people, planets, starships and vehicles ",
-    stack: "React, JS, CSS, HTML, API",
-  },
+  // {
+  //   id: 3,
+  //   name: "phonebook",
+  //   image: phonebook,
+  //   url: "https://aslanovrustam.github.io/phonebook/",
+  //   description: "App for working with private collections of contacts ",
+  //   stack: "React, Redux, JS, REST API",
+  // },
+  // {
+  //   id: 2,
+  //   name: "Star-Wars",
+  //   image: starWars,
+  //   url: "https://aslanovrustam.github.io/star_wars/",
+  //   description:
+  //     "Site with basical information about Star-Wars universe, including films, species, people, planets, starships and vehicles ",
+  //   stack: "React, JS, API",
+  // },
   // {
   //   id: 1,
   //   name: "Pomodoro",
