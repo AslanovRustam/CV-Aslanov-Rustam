@@ -40,6 +40,10 @@
   color: var(--black);
 }
 @media screen and (max-width: 426px) {
+  .section {
+    display: block;
+    padding: 0 2em;
+  }
   .container {
     font-size: 2em;
   }
