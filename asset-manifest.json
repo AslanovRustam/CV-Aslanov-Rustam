@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CV-Aslanov-Rustam/static/css/main.4ed7c0ef.css",
+    "main.css": "/CV-Aslanov-Rustam/static/css/main.9156dcc8.css",
     "main.js": "/CV-Aslanov-Rustam/static/js/main.bb963720.js",
     "static/media/Stock.jpg": "/CV-Aslanov-Rustam/static/media/Stock.c9d44c2a6e1e4705157b.jpg",
     "static/media/starWars.jpg": "/CV-Aslanov-Rustam/static/media/starWars.74335403cccd36a18a7e.jpg",
@@ -40,11 +40,11 @@
     "static/media/git.svg": "/CV-Aslanov-Rustam/static/media/git.aeb3f4d71f395035a416d6e5a7afa54e.svg",
     "static/media/html5.svg": "/CV-Aslanov-Rustam/static/media/html5.97aa13a61de56202ea97a2169449187f.svg",
     "static/media/css.svg": "/CV-Aslanov-Rustam/static/media/css.93d0281b823eb4bd4df7e843db0938b5.svg",
-    "main.4ed7c0ef.css.map": "/CV-Aslanov-Rustam/static/css/main.4ed7c0ef.css.map",
+    "main.9156dcc8.css.map": "/CV-Aslanov-Rustam/static/css/main.9156dcc8.css.map",
     "main.bb963720.js.map": "/CV-Aslanov-Rustam/static/js/main.bb963720.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ed7c0ef.css",
+    "static/css/main.9156dcc8.css",
     "static/js/main.bb963720.js"
   ]
 }
