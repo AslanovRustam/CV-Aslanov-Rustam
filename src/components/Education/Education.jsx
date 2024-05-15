@@ -2,7 +2,7 @@ import s from "./education.module.css";
 
 export default function Education() {
   return (
-    <>
+    <section className={s.section}>
       <div className={s.container}>
         <h3 className={s.title}>Education</h3>
         <div className={s.details}>
@@ -21,6 +21,6 @@ export default function Education() {
           <h5 className={s.position}>Full Stack Developer</h5>
         </div>
       </div>
-    </>
+    </section>
   );
 }
