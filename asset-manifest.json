@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/CV-Aslanov-Rustam/static/css/main.d8bdc97f.css",
-    "main.js": "/CV-Aslanov-Rustam/static/js/main.304627b2.js",
+    "main.css": "/CV-Aslanov-Rustam/static/css/main.b175ca78.css",
+    "main.js": "/CV-Aslanov-Rustam/static/js/main.c9fbb084.js",
     "static/media/Stock.jpg": "/CV-Aslanov-Rustam/static/media/Stock.c9d44c2a6e1e4705157b.jpg",
     "static/media/starWars.jpg": "/CV-Aslanov-Rustam/static/media/starWars.74335403cccd36a18a7e.jpg",
-    "static/media/crm.jpg": "/CV-Aslanov-Rustam/static/media/crm.1f175cca7e1b61acfb1d.jpg",
     "static/media/movie-finder.jpg": "/CV-Aslanov-Rustam/static/media/movie-finder.fc79f0f94874dfd67a78.jpg",
+    "static/media/bonanza.jpg": "/CV-Aslanov-Rustam/static/media/bonanza.215079b79a4c65cdb414.jpg",
+    "static/media/crm.jpg": "/CV-Aslanov-Rustam/static/media/crm.2c8d453faf0ac2553d2a.jpg",
     "static/media/trueplay.jpg": "/CV-Aslanov-Rustam/static/media/trueplay.ea7ff2beb8ad4711415d.jpg",
     "static/media/Gira.jpg": "/CV-Aslanov-Rustam/static/media/Gira.1c4e73449a7d30f6fa74.jpg",
     "static/media/form.jpg": "/CV-Aslanov-Rustam/static/media/form.a589f9e070ba629ea9ad.jpg",
@@ -19,18 +20,31 @@
     "static/media/Regular.otf": "/CV-Aslanov-Rustam/static/media/Regular.9603d48be34f3721c9c6.otf",
     "static/media/Bold.otf": "/CV-Aslanov-Rustam/static/media/Bold.e7dbff6869476c4643de.otf",
     "static/media/pomodoro.jpg": "/CV-Aslanov-Rustam/static/media/pomodoro.5f85c9c9fda3c7c17ed3.jpg",
-    "static/media/nextjs.png": "/CV-Aslanov-Rustam/static/media/nextjs.c72482c59ce8f22648a4.png",
-    "static/media/sprite.svg": "/CV-Aslanov-Rustam/static/media/sprite.28944f9baa166f8817acd284d4d864c0.svg",
-    "static/media/gitLab.png": "/CV-Aslanov-Rustam/static/media/gitLab.b8166db93d3f2aee1c7a.png",
     "static/media/photo.jpg": "/CV-Aslanov-Rustam/static/media/photo.cf6bca71c95b7944791f.jpg",
+    "static/media/nda.jpg": "/CV-Aslanov-Rustam/static/media/nda.0751a7382bd6e72ac838.jpg",
+    "static/media/react.svg": "/CV-Aslanov-Rustam/static/media/react.bbc844f2606a41903bbde6f1719d2164.svg",
+    "static/media/skype.svg": "/CV-Aslanov-Rustam/static/media/skype.91f790d34b464624cfde1f48a669635a.svg",
     "static/media/tools.svg": "/CV-Aslanov-Rustam/static/media/tools.aae94336872b6a0b2689af5c5b1c9191.svg",
-    "static/media/Typescript_logo_2020.svg": "/CV-Aslanov-Rustam/static/media/Typescript_logo_2020.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
+    "static/media/nodejs.svg": "/CV-Aslanov-Rustam/static/media/nodejs.02a9a09e54755fd8124011b83c2a5d02.svg",
+    "static/media/github.svg": "/CV-Aslanov-Rustam/static/media/github.c6e5aec447bc97215dde476b8982c789.svg",
+    "static/media/redux.svg": "/CV-Aslanov-Rustam/static/media/redux.59f428ebf1c8b3a3fcec9ee28b57c9da.svg",
+    "static/media/typescript.svg": "/CV-Aslanov-Rustam/static/media/typescript.b5b2d718660f30947dd581617ccdee0b.svg",
+    "static/media/phone.svg": "/CV-Aslanov-Rustam/static/media/phone.841fff44aa8ba4da22f7554744ea684e.svg",
+    "static/media/sass.svg": "/CV-Aslanov-Rustam/static/media/sass.34e851bb5ad853d659a1c84e208791e0.svg",
+    "static/media/nextjs_icon_dark.svg": "/CV-Aslanov-Rustam/static/media/nextjs_icon_dark.df7a5ee0487e869f65fb1a4c857cf879.svg",
+    "static/media/javascript.svg": "/CV-Aslanov-Rustam/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/gitlab.svg": "/CV-Aslanov-Rustam/static/media/gitlab.c52c19f45a2cd3e34cbfe46b2f403f83.svg",
+    "static/media/linkedin.svg": "/CV-Aslanov-Rustam/static/media/linkedin.c12c12137beb21d0f4ab5b16b367c1fd.svg",
+    "static/media/gmail.svg": "/CV-Aslanov-Rustam/static/media/gmail.866debac60b59a06b97b9f46c9c22b97.svg",
     "index.html": "/CV-Aslanov-Rustam/index.html",
-    "main.d8bdc97f.css.map": "/CV-Aslanov-Rustam/static/css/main.d8bdc97f.css.map",
-    "main.304627b2.js.map": "/CV-Aslanov-Rustam/static/js/main.304627b2.js.map"
+    "static/media/git.svg": "/CV-Aslanov-Rustam/static/media/git.aeb3f4d71f395035a416d6e5a7afa54e.svg",
+    "static/media/html5.svg": "/CV-Aslanov-Rustam/static/media/html5.97aa13a61de56202ea97a2169449187f.svg",
+    "static/media/css.svg": "/CV-Aslanov-Rustam/static/media/css.93d0281b823eb4bd4df7e843db0938b5.svg",
+    "main.b175ca78.css.map": "/CV-Aslanov-Rustam/static/css/main.b175ca78.css.map",
+    "main.c9fbb084.js.map": "/CV-Aslanov-Rustam/static/js/main.c9fbb084.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8bdc97f.css",
-    "static/js/main.304627b2.js"
+    "static/css/main.b175ca78.css",
+    "static/js/main.c9fbb084.js"
   ]
 }
