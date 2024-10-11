@@ -28,7 +28,12 @@ export default function AboutMuself() {
             I actively interact with designers and back-end developers to
             implement new features. I am comfortable working with version
             control systems such as Git and am always looking to improve my
-            skills through online courses and workshops.
+            skills through online courses and workshops. I`am experienced with
+            React.js, Next.js, JavaScript/Typescript HTML and CSS. I also
+            working with Redux/Redux Toolkit/RTK Query and REST API, as well as
+            understanding Git, to make it easier to communicate effectively with
+            development team. I also familiar with and React Query, Material UI
+            and Antd.
           </span>
         </li>
       </ul>

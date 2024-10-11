@@ -30,9 +30,20 @@ import next from "../images/icons/nextjs_icon_dark.svg";
 import node from "../images/icons/nodejs.svg";
 import git from "../images/icons/git.svg";
 import gitHub from "../images/icons/github.svg";
-import gitLab from "../images/icons//gitlab.svg";
+import gitLab from "../images/icons/gitlab.svg";
+import Tg from "../images/icons/telegram.svg";
+import twins from "../images/twin.jpg";
 
 export const projects = [
+  {
+    id: 18,
+    name: " Architecture Agency",
+    description:
+      "An architectural agency that specializes in supporting architects and interior designers worldwide by offering innovative project management solutions. With integrated tools, the agency helps clients focus on creative tasks, trusting us with the management of logistics, planning and coordination.",
+    stack: "Next.js, JS, RTK",
+    image: twins,
+    url: "https://www.twinsarchitectureoffice.com/",
+  },
   {
     id: 17,
     name: "NDA - social network",
@@ -128,15 +139,15 @@ export const projects = [
       "Landing page for web gaming provider. This single page application provides you to join to the gaming comunity around the world",
     stack: "React, JS",
   },
-  {
-    id: 6,
-    name: "PET - Slots",
-    image: bonanza,
-    url: "https://aslanovrustam.github.io/multi-lang-spin/",
-    description:
-      "Slots application with automatic detection of the browser language(11 languages, English by default). It allows users to make a couple of spins and get a bonus to start playing the game",
-    stack: "React, JS",
-  },
+  // {
+  //   id: 6,
+  //   name: "PET - Slots",
+  //   image: bonanza,
+  //   url: "https://aslanovrustam.github.io/multi-lang-spin/",
+  //   description:
+  //     "Slots application with automatic detection of the browser language(11 languages, English by default). It allows users to make a couple of spins and get a bonus to start playing the game",
+  //   stack: "React, JS",
+  // },
   // {
   //   id: 6,
   //   name: "PET - Multi-lang-slots",
@@ -191,12 +202,12 @@ export const projects = [
 
 export const experience = [
   {
-    date: "Jun 2021 - up to now | Ukraine",
+    date: "june 2021 - up to now | Ukraine",
     place: "Clickable Agency",
     position: "Front-end developer",
     link: "https://clickable.agency/",
     description:
-      "Developing cross-browser and responsive frontend UI, creating efficient and reusable UI components, project time estimate. Leading the front-end development team and help team-members grow and develop their skills. Collaborating with desiners/managers/QA teams and management of the company",
+      "Developing cross-browser and responsive frontend UI, creating efficient and reusable UI components, project time estimate",
   },
   {
     date: "October 2022 - up to now | Ukraine",
@@ -218,21 +229,21 @@ export const softSkils = [
 ];
 
 export const languageSkils = [
-  "Ukrainian native",
-  "Russian fluent",
-  "English intermediate",
+  "Ukrainian - native",
+  "Russian - fluent",
+  "English - upper intermediate",
 ];
 
 export const contacts = [
   {
-    name: "Рустам Асланов",
-    icon: Skype,
-    link: "https://join.skype.com/invite/k09RHhiE2mUV",
+    name: "AslanovRustam",
+    icon: Tg,
+    link: "https://t.me/AslanovRustam",
   },
   {
     name: "+38 067 310 48 17",
     icon: Phone,
-    link: "tel:+38 067 310 48 17",
+    link: "tel:+380673104817",
   },
   {
     name: "aslanovrg@gmail.com",
@@ -249,15 +260,24 @@ export const contacts = [
     icon: Linkedin,
     link: "https://www.linkedin.com/in/aslanovrustam/",
   },
+  {
+    name: "Рустам Асланов",
+    icon: Skype,
+    link: "https://join.skype.com/invite/k09RHhiE2mUV",
+  },
 ];
 export const techSkils = [
   {
-    name: "React, Redux, RTK",
-    icons: [react, redux],
+    name: "React",
+    icons: [react],
   },
   {
     name: "Next.js",
     icons: [next],
+  },
+  {
+    name: "Redux, RTK",
+    icons: [redux],
   },
   {
     name: "JS, TS",
