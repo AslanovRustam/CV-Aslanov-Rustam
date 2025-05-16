@@ -5,6 +5,7 @@ export default function AboutMuself() {
     <div className={s.container}>
       <h2 className={s.titleJob}>Front-End Developer</h2>
       <p className={s.titleName}>Aslanov Rustam</p>
+      {/* <p className={s.titleName}>Rustam</p> */}
       <ul className={s.summary}>
         <li className={s.item}>
           <span className={s.subTitle}>Credo: </span>

@@ -31,13 +31,33 @@ import node from "../images/icons/nodejs.svg";
 import git from "../images/icons/git.svg";
 import gitHub from "../images/icons/github.svg";
 import gitLab from "../images/icons/gitlab.svg";
+import nestJs from "../images/icons/nestjs.svg";
+import prismic from "../images/icons/prismic.svg";
+import threejs from "../images/icons/threejs-dark.svg";
 import Tg from "../images/icons/telegram.svg";
 import twins from "../images/twin.jpg";
+import aslanCan from "../images/aslanCan.png";
 
 export const projects = [
   {
+    id: 20,
+    name: "PET - 3D Soda Can",
+    description:
+      "This is a visually engaging, animation-rich portfolio website built with modern web technologies. The main purpose of the site is to impress potential clients with sleek, interactive 3D scenes and fluid animations that showcase creativity and technical skill.",
+    stack: "Next.js, TS, Prismic.io, Three.js",
+    url: "https://aslan-can.vercel.app/",
+    image: aslanCan,
+  },
+  {
+    id: 19,
+    name: "Platform for Industrial Safety & Training",
+    description:
+      "Contributed to the development of an builders platform to enhance safety, training, and operational performance in the construction and resource extraction industries. The project focuses on decision support, and workforce empowerment.",
+    stack: "Next.js, TS",
+  },
+  {
     id: 18,
-    name: " Architecture Agency",
+    name: "Architecture Agency",
     description:
       "An architectural agency that specializes in supporting architects and interior designers worldwide by offering innovative project management solutions. With integrated tools, the agency helps clients focus on creative tasks, trusting us with the management of logistics, planning and coordination.",
     stack: "Next.js, JS, RTK",
@@ -94,15 +114,15 @@ export const projects = [
       "Project for Creative Agency 'Kreyda' - is agency specializing in website development, creating designs, illustrations, and motion design",
     stack: "React, JS",
   },
-  {
-    id: 11,
-    name: "PET - AI Form",
-    image: aiForm,
-    url: "https://aslanovrustam.github.io/form/",
-    description:
-      "An app built with React, HTML, CSS and JS. It allows users to fill out a multilingual AI-designed form.",
-    stack: "React, JS, Spine animation",
-  },
+  // {
+  //   id: 11,
+  //   name: "PET - AI Form",
+  //   image: aiForm,
+  //   url: "https://aslanovrustam.github.io/form/",
+  //   description:
+  //     "An app built with React, HTML, CSS and JS. It allows users to fill out a multilingual AI-designed form.",
+  //   stack: "React, JS, Spine animation",
+  // },
   {
     id: 10,
     name: "AuditBet landing",
@@ -130,15 +150,15 @@ export const projects = [
       "Landing page for creative startup. This single page application using routing and contains 2 routes",
     stack: "React, JS",
   },
-  {
-    id: 7,
-    name: "Landing page Junket VIP",
-    image: junket,
-    url: "https://aslanovrustam.github.io/JunketVIP/",
-    description:
-      "Landing page for web gaming provider. This single page application provides you to join to the gaming comunity around the world",
-    stack: "React, JS",
-  },
+  // {
+  //   id: 7,
+  //   name: "Landing page Junket VIP",
+  //   image: junket,
+  //   url: "https://aslanovrustam.github.io/JunketVIP/",
+  //   description:
+  //     "Landing page for web gaming provider. This single page application provides you to join to the gaming comunity around the world",
+  //   stack: "React, JS",
+  // },
   // {
   //   id: 6,
   //   name: "PET - Slots",
@@ -260,11 +280,11 @@ export const contacts = [
     icon: Linkedin,
     link: "https://www.linkedin.com/in/aslanovrustam/",
   },
-  {
-    name: "Рустам Асланов",
-    icon: Skype,
-    link: "https://join.skype.com/invite/k09RHhiE2mUV",
-  },
+  // {
+  //   name: "Рустам Асланов",
+  //   icon: Skype,
+  //   link: "https://join.skype.com/invite/k09RHhiE2mUV",
+  // },
 ];
 export const techSkils = [
   {
@@ -292,15 +312,27 @@ export const techSkils = [
     icons: [css, sass],
   },
   {
-    name: "Node.js(beginer)",
+    name: "Node.js",
     icons: [node],
+  },
+  {
+    name: "Nest.js",
+    icons: [nestJs],
+  },
+  {
+    name: "Prismic.io",
+    icons: [prismic],
   },
   {
     name: "Git",
     icons: [git],
   },
   {
-    name: "GitHub, GitLab",
-    icons: [gitHub, gitLab],
+    name: "Three.js",
+    icons: [threejs],
   },
+  // {
+  //   name: "GitHub, GitLab",
+  //   icons: [gitHub, gitLab],
+  // },
 ];
