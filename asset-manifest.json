@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV-Aslanov-Rustam/static/css/main.9156dcc8.css",
-    "main.js": "/CV-Aslanov-Rustam/static/js/main.5fb607db.js",
+    "main.css": "/CV-Aslanov-Rustam/static/css/main.eed8dffa.css",
+    "main.js": "/CV-Aslanov-Rustam/static/js/main.c37e5b07.js",
     "static/media/Stock.jpg": "/CV-Aslanov-Rustam/static/media/Stock.c9d44c2a6e1e4705157b.jpg",
     "static/media/starWars.jpg": "/CV-Aslanov-Rustam/static/media/starWars.74335403cccd36a18a7e.jpg",
     "static/media/movie-finder.jpg": "/CV-Aslanov-Rustam/static/media/movie-finder.fc79f0f94874dfd67a78.jpg",
@@ -16,6 +16,7 @@
     "static/media/weft.jpg": "/CV-Aslanov-Rustam/static/media/weft.2cdc93062f36836d5eb4.jpg",
     "static/media/phonebook.jpg": "/CV-Aslanov-Rustam/static/media/phonebook.caeed6cfebbd63c5274e.jpg",
     "static/media/VerifiedX.png": "/CV-Aslanov-Rustam/static/media/VerifiedX.08b8a3d744d50eb63c31.png",
+    "static/media/aslanCan.png": "/CV-Aslanov-Rustam/static/media/aslanCan.83170ba208b3bba739d3.png",
     "static/media/readme_home.jpg": "/CV-Aslanov-Rustam/static/media/readme_home.197bc5a9e8ed8c629030.jpg",
     "static/media/pomodoro2.jpg": "/CV-Aslanov-Rustam/static/media/pomodoro2.76add9d2dfa31017d8bf.jpg",
     "static/media/Regular.otf": "/CV-Aslanov-Rustam/static/media/Regular.9603d48be34f3721c9c6.otf",
@@ -23,8 +24,10 @@
     "static/media/pomodoro.jpg": "/CV-Aslanov-Rustam/static/media/pomodoro.5f85c9c9fda3c7c17ed3.jpg",
     "static/media/photo.jpg": "/CV-Aslanov-Rustam/static/media/photo.cf6bca71c95b7944791f.jpg",
     "static/media/nda.jpg": "/CV-Aslanov-Rustam/static/media/nda.0751a7382bd6e72ac838.jpg",
+    "static/media/prismic.svg": "/CV-Aslanov-Rustam/static/media/prismic.23a1e119c4439016bfa744203cc6d6d7.svg",
     "static/media/react.svg": "/CV-Aslanov-Rustam/static/media/react.bbc844f2606a41903bbde6f1719d2164.svg",
     "static/media/skype.svg": "/CV-Aslanov-Rustam/static/media/skype.91f790d34b464624cfde1f48a669635a.svg",
+    "static/media/nestjs.svg": "/CV-Aslanov-Rustam/static/media/nestjs.7c15d60bda637a2bbd571c495c3e5d4d.svg",
     "static/media/tools.svg": "/CV-Aslanov-Rustam/static/media/tools.aae94336872b6a0b2689af5c5b1c9191.svg",
     "static/media/nodejs.svg": "/CV-Aslanov-Rustam/static/media/nodejs.02a9a09e54755fd8124011b83c2a5d02.svg",
     "static/media/github.svg": "/CV-Aslanov-Rustam/static/media/github.c6e5aec447bc97215dde476b8982c789.svg",
@@ -35,6 +38,7 @@
     "static/media/telegram.svg": "/CV-Aslanov-Rustam/static/media/telegram.a3e6effdbcae36e109e1203f82ad7196.svg",
     "static/media/nextjs_icon_dark.svg": "/CV-Aslanov-Rustam/static/media/nextjs_icon_dark.df7a5ee0487e869f65fb1a4c857cf879.svg",
     "static/media/javascript.svg": "/CV-Aslanov-Rustam/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/threejs-dark.svg": "/CV-Aslanov-Rustam/static/media/threejs-dark.3faf1747c806a99d87edecce7c738ce9.svg",
     "static/media/gitlab.svg": "/CV-Aslanov-Rustam/static/media/gitlab.c52c19f45a2cd3e34cbfe46b2f403f83.svg",
     "static/media/linkedin.svg": "/CV-Aslanov-Rustam/static/media/linkedin.c12c12137beb21d0f4ab5b16b367c1fd.svg",
     "static/media/gmail.svg": "/CV-Aslanov-Rustam/static/media/gmail.866debac60b59a06b97b9f46c9c22b97.svg",
@@ -42,11 +46,11 @@
     "static/media/git.svg": "/CV-Aslanov-Rustam/static/media/git.aeb3f4d71f395035a416d6e5a7afa54e.svg",
     "static/media/html5.svg": "/CV-Aslanov-Rustam/static/media/html5.97aa13a61de56202ea97a2169449187f.svg",
     "static/media/css.svg": "/CV-Aslanov-Rustam/static/media/css.93d0281b823eb4bd4df7e843db0938b5.svg",
-    "main.9156dcc8.css.map": "/CV-Aslanov-Rustam/static/css/main.9156dcc8.css.map",
-    "main.5fb607db.js.map": "/CV-Aslanov-Rustam/static/js/main.5fb607db.js.map"
+    "main.eed8dffa.css.map": "/CV-Aslanov-Rustam/static/css/main.eed8dffa.css.map",
+    "main.c37e5b07.js.map": "/CV-Aslanov-Rustam/static/js/main.c37e5b07.js.map"
   },
   "entrypoints": [
-    "static/css/main.9156dcc8.css",
-    "static/js/main.5fb607db.js"
+    "static/css/main.eed8dffa.css",
+    "static/js/main.c37e5b07.js"
   ]
 }
