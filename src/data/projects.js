@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     id: 4,
     name: "Gipper",
-    role: "Front-end Developer",
+    role: "Full Stack Developer",
     duration: "Oct 2025 – Aug 2026",
     generalInfo: `Sports graphics platform that helps schools, athletic departments, and teams create professional branded graphics in minutes. The product includes a canvas-based graphic editor with a template library, media gallery, newsletters, and digital displays, built as a microfrontend ecosystem of 14 React modules`,
     tasks: [

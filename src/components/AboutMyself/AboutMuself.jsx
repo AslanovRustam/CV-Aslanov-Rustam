@@ -33,7 +33,7 @@ export default function AboutMuself() {
             CSS/SCSS/Tailwind, JS/TS, React.js, and Next.js. Experienced in
             integrating REST APIs, Redux, MobX, Zustand and working with UI
             libraries (MaterialUI, AntD, HeroUI). <br></br>Actively leverage
-            AI-powered tools (Claude, ChatGPT) in my daily workflow to
+            AI-powered tools (Claude, Cursor, ChatGPT) in my daily workflow to
             accelerate development and automate routine tasks. Collaborate
             effectively with designers and backend teams to deliver maintainable
             code that meets both user and business needs. Always exploring new

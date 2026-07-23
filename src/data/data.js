@@ -252,7 +252,15 @@ export const projects = [
 
 export const experience = [
   {
-    date: "Sep 2023 – Present",
+    date: "Oct 2025 – Aug 2026",
+    place: "Scrumlaunch",
+    position: "Full Stack Developer",
+    link: "https://www.scrumlaunch.com/",
+    description:
+      "Developing Gipper — graphics platform that helps schools, athletic departments, and teams create professional branded graphics, built as a microfrontend ecosystem of 14 React modules with Module Federation and MobX. Researched and developed a new Tables feature for the canvas-based graphic editor on Fabric.js, from prototyping to production implementation, including cell editing, styling, and canvas rendering. Researched and implemented server-side rendering of editor canvases into production-ready images using Node.js with automated asset delivery to S3. Developed and improved drag-and-drop interactions across the editor and content management interfaces. Updated and refined the interface of platform elements to improve usability and visual consistency.",
+  },
+  {
+    date: "Sep 2023 – Oct 2025",
     place: "Clickable Agency",
     position: "Team Lead, Development",
     link: "https://clickable.agency/",
@@ -368,14 +376,6 @@ export const techSkils = [
   {
     name: "Node.js(basic)",
     icons: [node],
-  },
-  {
-    name: "Nest.js",
-    icons: [nestJs],
-  },
-  {
-    name: "Prismic.io",
-    icons: [prismic],
   },
   {
     name: "Nest.js(basic)",
