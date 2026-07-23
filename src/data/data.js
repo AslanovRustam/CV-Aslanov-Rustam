@@ -370,6 +370,14 @@ export const techSkils = [
     icons: [node],
   },
   {
+    name: "Nest.js",
+    icons: [nestJs],
+  },
+  {
+    name: "Prismic.io",
+    icons: [prismic],
+  },
+  {
     name: "Nest.js(basic)",
     icons: [nestJs],
   },
