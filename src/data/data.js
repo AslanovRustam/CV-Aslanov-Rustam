@@ -37,6 +37,7 @@ import prismic from "../images/icons/prismic.svg";
 import contentful from "../images/icons/contentful.svg";
 import sanity from "../images/icons/sanity.svg";
 import payload from "../images/icons/payload.svg";
+import n8n from "../images/icons/n8n.svg";
 import threejs from "../images/icons/threejs-dark.svg";
 import tailwind from "../images/icons/tailwindcss.svg";
 import mobx from "../images/icons/mobx.svg";
@@ -385,9 +386,14 @@ export const techSkils = [
     name: "CMS (Prismic, Contentful, Sanity, Payload)",
     icons: [prismic, contentful, sanity, payload],
   },
+
   {
     name: "AI Tools (Claude, Cursor, ChatGPT)",
     icons: [claude, cursor, chatgpt],
+  },
+  {
+    name: "n8n.io",
+    icons: [n8n],
   },
 
   // {
