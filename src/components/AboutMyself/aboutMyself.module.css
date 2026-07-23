@@ -1,14 +1,23 @@
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
 .titleJob,
 .titleName {
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
   font-size: 2em;
   font-weight: 600;
   color: var(--black);
 }
 .titleName {
-  margin: 0.5em 0;
+  /* margin: 0.5em 0; */
   font-size: 4em;
   font-weight: 700;
+}
+.titleJob {
+  font-size: 4em;
+  opacity: 0.5;
 }
 .item {
   font-size: 1.5em;

@@ -18,11 +18,17 @@
 
 .contactBox {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 0.5em;
 }
 .contactBox span {
   font-weight: 500;
+  text-align: left;
+}
+.contactBox span:last-child {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 .whiteBg {
   background-color: white;

@@ -3,38 +3,42 @@ import s from "./aboutMyself.module.css";
 export default function AboutMuself() {
   return (
     <div className={s.container}>
-      <h2 className={s.titleJob}>Front-End Developer</h2>
-      <p className={s.titleName}>Aslanov Rustam</p>
-      {/* <p className={s.titleName}>Rustam</p> */}
+      <div className={s.titleContainer}>
+        <p className={s.titleName}>Aslanov Rustam</p>
+        <h2 className={s.titleJob}>Front-End Developer</h2>
+      </div>
       <ul className={s.summary}>
-        <li className={s.item}>
+        {/* <li className={s.item}>
           <span className={s.subTitle}>Credo: </span>
           <span className={s.description}>
-            never stop learning and make the world beautiful
+            Strive for clean, efficient, and user-focused solutions — constantly
+            learning to deliver interfaces that are both beautiful and
+            impactful.
           </span>
-        </li>
+        </li> */}
         <li className={s.item}>
           <span className={s.subTitle}>Goals: </span>
           <span className={s.description}>
-            be helpful in resolving customer issues, continue to develop at the
-            IT field
+            To contribute to products that solve real user problems, enhance
+            business value, and continue growing as a front-end engineer
+            mastering modern technologies.
           </span>
         </li>
         <li className={s.item}>
           <span className={s.subTitle}>About myself: </span>
           <span className={s.description}>
-            as a front-end developer, I have worked on a variety of projects,
-            including single-page and multi-page web applications. My experience
-            allowed me to create visually appealing and user-friendly websites.
-            I actively interact with designers and back-end developers to
-            implement new features. I am comfortable working with version
-            control systems such as Git and am always looking to improve my
-            skills through online courses and workshops. I`am experienced with
-            React.js, Next.js, JavaScript/Typescript HTML and CSS. I also
-            working with Redux/Redux Toolkit/RTK Query and REST API, as well as
-            understanding Git, to make it easier to communicate effectively with
-            development team. I also familiar with and React Query, Material UI
-            and Antd.
+            Front-end developer with 5 years of experience creating responsive,
+            high-performance web applications. Skilled in turning complex
+            designs into pixel-perfect, cross-browser solutions using HTML,
+            CSS/SCSS/Tailwind, JS/TS, React.js, and Next.js. Experienced in
+            integrating REST APIs, Redux, MobX, Zustand and working with UI
+            libraries (MaterialUI, AntD, HeroUI). <br></br>Actively leverage
+            AI-powered tools (Claude, ChatGPT) in my daily workflow to
+            accelerate development and automate routine tasks. Collaborate
+            effectively with designers and backend teams to deliver maintainable
+            code that meets both user and business needs. Always exploring new
+            tools and frameworks to improve product quality and development
+            speed.
           </span>
         </li>
       </ul>

@@ -31,26 +31,56 @@ import node from "../images/icons/nodejs.svg";
 import git from "../images/icons/git.svg";
 import gitHub from "../images/icons/github.svg";
 import gitLab from "../images/icons/gitlab.svg";
+import bitbucket from "../images/icons/bitbucket.svg";
 import nestJs from "../images/icons/nestjs.svg";
 import prismic from "../images/icons/prismic.svg";
+import contentful from "../images/icons/contentful.svg";
+import sanity from "../images/icons/sanity.svg";
+import payload from "../images/icons/payload.svg";
 import threejs from "../images/icons/threejs-dark.svg";
+import tailwind from "../images/icons/tailwindcss.svg";
+import mobx from "../images/icons/mobx.svg";
+import zustand from "../images/icons/zustand.svg";
+import claude from "../images/icons/claude.svg";
+import cursor from "../images/icons/cursor.svg";
+import chatgpt from "../images/icons/chatgpt.svg";
 import Tg from "../images/icons/telegram.svg";
 import twins from "../images/twin.jpg";
 import aslanCan from "../images/aslanCan.png";
+import gambling from "../images/gambling.png";
+import artist from "../images/artist.jpg";
 
 export const projects = [
+  {
+    id: 22,
+    name: "Artist Platform",
+    description:
+      "A platform where artists publish concerts, manage their profiles, and visitors browse events.",
+    stack: "React.js, TS, Framer Motion",
+    url: "https://artist-platform-nine.vercel.app/",
+    image: artist,
+  },
+  {
+    id: 21,
+    name: "Gambling Creative Website",
+    description:
+      "A high-converting landing page for a creative agency operating in the gambling industry. Built with performance, visual appeal, and user interaction in mind.",
+    stack: "Next.js, TS, Tailwind, Framer Motion",
+    url: "https://gambling-six.vercel.app/",
+    image: gambling,
+  },
   {
     id: 20,
     name: "PET - 3D Soda Can",
     description:
       "This is a visually engaging, animation-rich portfolio website built with modern web technologies. The main purpose of the site is to impress potential clients with sleek, interactive 3D scenes and fluid animations that showcase creativity and technical skill.",
-    stack: "Next.js, TS, Prismic.io, Three.js",
+    stack: "Next.js, TS, Tailwind, Prismic.io, Three.js",
     url: "https://aslan-can.vercel.app/",
     image: aslanCan,
   },
   {
     id: 19,
-    name: "Platform for Industrial Safety & Training",
+    name: "NDA - Platform for Industrial Safety & Training",
     description:
       "Contributed to the development of an builders platform to enhance safety, training, and operational performance in the construction and resource extraction industries. The project focuses on decision support, and workforce empowerment.",
     stack: "Next.js, TS",
@@ -105,15 +135,15 @@ export const projects = [
       "An application for using the 'Pomodoro' technique, which helps to better manage time and increase productivity",
     stack: "React, JS",
   },
-  {
-    id: 12,
-    name: "Kreyda Agency",
-    image: kreyda,
-    url: "https://aslanovrustam.github.io/creyda/",
-    description:
-      "Project for Creative Agency 'Kreyda' - is agency specializing in website development, creating designs, illustrations, and motion design",
-    stack: "React, JS",
-  },
+  // {
+  //   id: 12,
+  //   name: "Kreyda Agency",
+  //   image: kreyda,
+  //   url: "https://aslanovrustam.github.io/creyda/",
+  //   description:
+  //     "Project for Creative Agency 'Kreyda' - is agency specializing in website development, creating designs, illustrations, and motion design",
+  //   stack: "React, JS",
+  // },
   // {
   //   id: 11,
   //   name: "PET - AI Form",
@@ -185,14 +215,14 @@ export const projects = [
   //   description: "App for searching images/photos/music",
   //   stack: "React, JS, HTML, CSS, REST API",
   // },
-  {
-    id: 4,
-    name: "PET - Movie-finder",
-    image: movie,
-    url: "https://aslanovrustam.github.io/movies/",
-    description: "Movie finder app with actors details and reviews ",
-    stack: "React, JS, REST API",
-  },
+  // {
+  //   id: 4,
+  //   name: "PET - Movie-finder",
+  //   image: movie,
+  //   url: "https://aslanovrustam.github.io/movies/",
+  //   description: "Movie finder app with actors details and reviews ",
+  //   stack: "React, JS, REST API",
+  // },
   // {
   //   id: 3,
   //   name: "phonebook",
@@ -222,20 +252,28 @@ export const projects = [
 
 export const experience = [
   {
-    date: "june 2021 - up to now | Ukraine",
+    date: "Sep 2023 – Present",
+    place: "Clickable Agency",
+    position: "Team Lead, Development",
+    link: "https://clickable.agency/",
+    description:
+      "Overseeing and guiding the development team in delivering high-quality solutions. Performing project estimations and providing accurate time and cost estimates for clients. Supporting team members by resolving technical challenges and offering mentorship to foster their professional growth. Developing individual development plans for each team member to enhance skills and career progression. Ensuring code quality through regular reviews, best practices, and performance optimization. Coordinating cross-department communication to align technical and business goals. Engaging directly with clients to clarify requirements, present solutions, and maintain strong relationships. Driving process improvements, implementing new tools and workflows to increase productivity, and ensuring timely delivery of projects.",
+  },
+  {
+    date: "Jun 2021 – Sep 2023",
     place: "Clickable Agency",
     position: "Front-end developer",
     link: "https://clickable.agency/",
     description:
-      "Developing cross-browser and responsive frontend UI, creating efficient and reusable UI components, project time estimate",
+      "Designed and developed modern, fully responsive, and cross-browser web interfaces for a wide range of client projects. Built modular, reusable, and performance-optimized UI components to enhance scalability and maintainability of applications. Integrated APIs and dynamic data to deliver interactive and high-performing features. Participated in project estimation, providing accurate timelines and technical insights. Collaborated closely with UX/UI designers to translate designs into pixel-perfect implementations, and worked with backend developers to ensure seamless integration of front-end and server-side logic. Applied best practices in code structure, accessibility, and SEO optimization. Maintained clear communication with stakeholders to meet requirements and deliver solutions on time.",
   },
   {
-    date: "October 2022 - up to now | Ukraine",
+    date: "Oct 2022 – Present",
     place: "GoIT",
     position: "Teacher, Mentor(course React)",
     link: "https://goit.global/ua/",
     description:
-      "Providing support and mentoring to students,track student progress and provide feedback and recommendations to improve their skills, code review, conducting practical classes",
+      "Mentored students in mastering React and modern front-end development. Tracked individual progress, provided constructive feedback, and conducted in-depth code reviews. Led practical workshops, guided project implementation, and helped students strengthen their problem-solving and coding skills.",
   },
 ];
 
@@ -249,14 +287,14 @@ export const softSkils = [
 ];
 
 export const languageSkils = [
-  "Ukrainian - native",
-  "Russian - fluent",
   "English - upper intermediate",
+  "Russian - fluent",
+  "Ukrainian - native",
 ];
 
 export const contacts = [
   {
-    name: "AslanovRustam",
+    name: "@AslanovRustam",
     icon: Tg,
     link: "https://t.me/AslanovRustam",
   },
@@ -276,7 +314,7 @@ export const contacts = [
     link: "https://github.com/AslanovRustam",
   },
   {
-    name: "Aslanov Rustam",
+    name: "aslanovrustam",
     icon: Linkedin,
     link: "https://www.linkedin.com/in/aslanovrustam/",
   },
@@ -287,6 +325,22 @@ export const contacts = [
   // },
 ];
 export const techSkils = [
+  {
+    name: "HTML5",
+    icons: [html],
+  },
+  {
+    name: "CSS3, SCSS",
+    icons: [css, sass],
+  },
+  {
+    name: "Tailwind",
+    icons: [tailwind],
+  },
+  {
+    name: "JS, TS",
+    icons: [js, ts],
+  },
   {
     name: "React",
     icons: [react],
@@ -300,39 +354,57 @@ export const techSkils = [
     icons: [redux],
   },
   {
-    name: "JS, TS",
-    icons: [js, ts],
+    name: "MobX",
+    icons: [mobx],
   },
   {
-    name: "HTML5",
-    icons: [html],
+    name: "Zustand",
+    icons: [zustand],
   },
   {
-    name: "CSS3, SCSS",
-    icons: [css, sass],
+    name: "Git, GitHub, GitLab, Bitbucket",
+    icons: [git, gitHub, gitLab, bitbucket],
   },
   {
-    name: "Node.js",
+    name: "Node.js(basic)",
     icons: [node],
   },
   {
-    name: "Nest.js",
+    name: "Nest.js(basic)",
     icons: [nestJs],
   },
   {
-    name: "Prismic.io",
-    icons: [prismic],
+    name: "CMS (Prismic, Contentful, Sanity, Payload)",
+    icons: [prismic, contentful, sanity, payload],
   },
   {
-    name: "Git",
-    icons: [git],
+    name: "AI Tools (Claude, Cursor, ChatGPT)",
+    icons: [claude, cursor, chatgpt],
   },
-  {
-    name: "Three.js",
-    icons: [threejs],
-  },
+
+  // {
+  //   name: "Three.js",
+  //   icons: [threejs],
+  // },
   // {
   //   name: "GitHub, GitLab",
   //   icons: [gitHub, gitLab],
   // },
+];
+
+export const projectNames = [
+  "https://gambling-six.vercel.app/",
+  "https://artist-platform-nine.vercel.app/",
+  "https://www.twinsarchitectureoffice.com/",
+  "https://aslan-can.vercel.app/",
+  "https://donut3d-tau.vercel.app/",
+  "https://aslanovrustam.github.io/plains-wheel/",
+  "https://aslanovrustam.github.io/true-landing/",
+  "https://aslanovrustam.github.io/JunketVIP/",
+  "https://aslanovrustam.github.io/cashimo-wheel/",
+  "https://aslanovrustam.github.io/verifiedx/",
+  "https://aslanovrustam.github.io/weft/",
+  "https://aslanovrustam.github.io/multi-lang-spin/",
+  "https://aslanovrustam.github.io/creyda/",
+  "https://aslanovrustam.github.io/movies/",
 ];

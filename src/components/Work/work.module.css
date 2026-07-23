@@ -6,7 +6,7 @@
   color: var(--orange);
 }
 .details {
-  margin: 0 0 2em 1em;
+  margin: 0 0 1em 1em;
   padding-bottom: 1em;
   border-bottom: 0.1em solid var(--maintextcolor);
 }
@@ -32,6 +32,8 @@
   line-height: 1.98;
   letter-spacing: 0.02em;
   transition: 0.3s all ease-in-out;
+  color: var(--black);
+  opacity: 0.8;
 }
 .link:hover,
 .link:focus {
