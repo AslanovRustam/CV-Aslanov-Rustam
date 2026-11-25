@@ -9,7 +9,7 @@ export default function Aside() {
       <img className={s.photo} src={photo} alt="avatar" />
       <Contacts />
       <Skills />
-      <p className={s.mobSubTitle}>Front-End Developer</p>
+      <p className={s.mobSubTitle}>Senior Front-End Developer</p>
     </section>
   );
 }

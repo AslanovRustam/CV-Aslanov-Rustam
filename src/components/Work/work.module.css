@@ -43,6 +43,18 @@
   font-size: 1.2em;
   color: var(--secondTextColor);
 }
+.bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  padding-left: 1.2em;
+}
+.bullets .description {
+  list-style: disc;
+}
+.bullets .description::marker {
+  color: var(--orange);
+}
 @media screen and (max-width: 426px) {
   .section {
     font-size: 2em;

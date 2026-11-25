@@ -11,16 +11,18 @@ export default function Education() {
             A.S.Popov Odessa National Academy of Telecommunications
           </h4>
           <h5 className={s.position}>
-            Telecommunications and Network Engineer
+            Master's degree, Telecommunications and Network Engineering
           </h5>
         </div>
       </div>
       <div className={s.container}>
-        <h3 className={s.title}>Additional Education</h3>
+        <h3 className={s.title}>Certifications</h3>
         <div className={s.details}>
-          <span className={s.date}>Apr 2020 – Apr 2021 | Ukraine</span>
-          <h4 className={s.subTitle}>GO IT</h4>
-          <h5 className={s.position}>Full Stack Developer</h5>
+          <span className={s.date}>Apr 2020 - Apr 2021 | Ukraine</span>
+          <h4 className={s.subTitle}>GoIT</h4>
+          <h5 className={s.position}>
+            Full Stack Developer Certificate (JavaScript, React, Node.js)
+          </h5>
         </div>
       </div>
     </section>

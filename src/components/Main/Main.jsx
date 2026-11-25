@@ -9,8 +9,8 @@ export default function Main() {
   return (
     <section className={s.section}>
       <AboutMuself />
-      <Projects data={projects} />
       <Work data={experience} />
+      <Projects data={projects} />
       <Education />
     </section>
   );

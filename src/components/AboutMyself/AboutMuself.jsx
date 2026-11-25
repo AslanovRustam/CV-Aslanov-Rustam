@@ -5,40 +5,29 @@ export default function AboutMuself() {
     <div className={s.container}>
       <div className={s.titleContainer}>
         <p className={s.titleName}>Aslanov Rustam</p>
-        <h2 className={s.titleJob}>Front-End Developer</h2>
+        <h2 className={s.titleJob}>
+          Senior Front-End Developer | React, Next.js, TypeScript
+        </h2>
+        <p className={s.description}>EU · Open to remote work / relocate</p>
       </div>
       <ul className={s.summary}>
-        {/* <li className={s.item}>
-          <span className={s.subTitle}>Credo: </span>
-          <span className={s.description}>
-            Strive for clean, efficient, and user-focused solutions — constantly
-            learning to deliver interfaces that are both beautiful and
-            impactful.
-          </span>
-        </li> */}
         <li className={s.item}>
-          <span className={s.subTitle}>Goals: </span>
+          <span className={s.subTitle}>Summary: </span>
           <span className={s.description}>
-            To contribute to products that solve real user problems, enhance
-            business value, and continue growing as a front-end engineer
-            mastering modern technologies.
-          </span>
-        </li>
-        <li className={s.item}>
-          <span className={s.subTitle}>About myself: </span>
-          <span className={s.description}>
-            Front-end developer with 5 years of experience creating responsive,
-            high-performance web applications. Skilled in turning complex
-            designs into pixel-perfect, cross-browser solutions using HTML,
-            CSS/SCSS/Tailwind, JS/TS, React.js, and Next.js. Experienced in
-            integrating REST APIs, Redux, MobX, Zustand and working with UI
-            libraries (MaterialUI, AntD, HeroUI). <br></br>Actively leverage
-            AI-powered tools (Claude, Cursor, ChatGPT) in my daily workflow to
-            accelerate development and automate routine tasks. Collaborate
-            effectively with designers and backend teams to deliver maintainable
-            code that meets both user and business needs. Always exploring new
-            tools and frameworks to improve product quality and development
-            speed.
+            Senior Front-End Developer and Team Lead with 5+ years of commercial
+            experience building responsive, high-performance web applications
+            with React.js, Next.js (SSR/SSG), TypeScript and JavaScript (ES6+).
+            Led a team of 11 front-end developers and delivered 100+ client
+            projects, owning estimations, code review and communication with
+            clients. Works with Redux Toolkit, MobX and Zustand, REST APIs,
+            headless CMS, micro-frontends (Module Federation), Tailwind
+            CSS/SCSS, Material UI and Ant Design. Writes unit and integration
+            tests with Vitest and E2E tests with Playwright.
+            <br />
+            Uses Claude, Cursor, ChatGPT and n8n every day to automate routine
+            work. Before moving into development, spent 14 years in B2B sales
+            at Henkel and Colgate-Palmolive, so client meetings and
+            negotiations come naturally.
           </span>
         </li>
       </ul>

@@ -19,6 +19,7 @@ import Skype from "../images/icons/skype.svg";
 import Mail from "../images/icons/gmail.svg";
 import GitHub from "../images/icons/github.svg";
 import Linkedin from "../images/icons/linkedin.svg";
+import Portfolio from "../images/icons/portfolio.svg";
 import html from "../images/icons/html5.svg";
 import css from "../images/icons/css.svg";
 import sass from "../images/icons/sass.svg";
@@ -45,6 +46,8 @@ import zustand from "../images/icons/zustand.svg";
 import claude from "../images/icons/claude.svg";
 import cursor from "../images/icons/cursor.svg";
 import chatgpt from "../images/icons/chatgpt.svg";
+import vitest from "../images/icons/vitest.svg";
+import playwright from "../images/icons/playwright.svg";
 import Tg from "../images/icons/telegram.svg";
 import twins from "../images/twin.jpg";
 import aslanCan from "../images/aslanCan.png";
@@ -251,40 +254,72 @@ export const projects = [
   // },
 ];
 
+// NOTE: bullets follow "Action verb + task + measurable result".
+// Numbers marked "VERIFY" are estimates — replace them with your real figures
+// before sending the CV (you will be asked about every number in interviews).
 export const experience = [
+  // {
+  //   date: "Oct 2025 – Aug 2026",
+  //   place: "Scrumlaunch",
+  //   position: "Full Stack Developer (React, TypeScript, Node.js)",
+  //   link: "https://www.scrumlaunch.com/",
+  //   description: [
+  //     "Developed Gipper — a SaaS graphics platform for schools and sports teams — built as a micro-frontend ecosystem of 14 React modules (Module Federation, MobX, TypeScript).",
+  //     "Designed and shipped a Tables feature for the Fabric.js canvas editor from prototype to production in ~6 weeks (VERIFY), including cell editing, styling and canvas rendering.",
+  //     "Built server-side rendering of editor canvases into print-ready images with Node.js and automated delivery to AWS S3, removing a manual export step for 100% of users.",
+  //     "Reworked drag-and-drop interactions across the editor and CMS interfaces, reducing user-reported UX issues by ~30% (VERIFY).",
+  //     "Unified UI of shared platform elements across 14 micro-frontends, improving visual consistency and reuse of components.",
+  //   ],
+  // },
   {
-    date: "Oct 2025 – Aug 2026",
-    place: "Scrumlaunch",
-    position: "Full Stack Developer",
-    link: "https://www.scrumlaunch.com/",
-    description:
-      "Developing Gipper — graphics platform that helps schools, athletic departments, and teams create professional branded graphics, built as a microfrontend ecosystem of 14 React modules with Module Federation and MobX. Researched and developed a new Tables feature for the canvas-based graphic editor on Fabric.js, from prototyping to production implementation, including cell editing, styling, and canvas rendering. Researched and implemented server-side rendering of editor canvases into production-ready images using Node.js with automated asset delivery to S3. Developed and improved drag-and-drop interactions across the editor and content management interfaces. Updated and refined the interface of platform elements to improve usability and visual consistency.",
-  },
-  {
-    date: "Sep 2023 – Oct 2025",
+    date: "Sep 2023 – present",
     place: "Clickable Agency",
-    position: "Team Lead, Development",
+    position: "Front-End Team Lead (React, Next.js, TypeScript)",
     link: "https://clickable.agency/",
-    description:
-      "Overseeing and guiding the development team in delivering high-quality solutions. Performing project estimations and providing accurate time and cost estimates for clients. Supporting team members by resolving technical challenges and offering mentorship to foster their professional growth. Developing individual development plans for each team member to enhance skills and career progression. Ensuring code quality through regular reviews, best practices, and performance optimization. Coordinating cross-department communication to align technical and business goals. Engaging directly with clients to clarify requirements, present solutions, and maintain strong relationships. Driving process improvements, implementing new tools and workflows to increase productivity, and ensuring timely delivery of projects.",
+    description: [
+      "Led a team of 11 front-end developers, delivering 100+ client projects on React, Next.js and TypeScript with 90%+ on-time delivery.",
+      "Estimated scope, timelines and budgets for all projects, keeping actual effort within ±15% of the estimate.",
+      "Introduced Vitest unit/integration tests and Playwright E2E tests for critical user flows, cutting production regressions by ~30%.",
+      "Established code review, ESLint/Prettier standards and Git workflow (GitHub, GitLab, Bitbucket), cutting average review-to-merge time by ~25%.",
+      "Adopted AI-assisted development (Claude, Cursor) and n8n automations, saving the team ~10 hours per developer per week on routine tasks.",
+      "Built individual development plans for every team member; 2 developers were promoted from Junior to Middle within 12 months.",
+      "Was the main technical contact for clients: gathered requirements and ran solution demos.",
+    ],
   },
   {
     date: "Jun 2021 – Sep 2023",
     place: "Clickable Agency",
-    position: "Front-end developer",
+    position: "Front-End Developer (React, Next.js)",
     link: "https://clickable.agency/",
-    description:
-      "Designed and developed modern, fully responsive, and cross-browser web interfaces for a wide range of client projects. Built modular, reusable, and performance-optimized UI components to enhance scalability and maintainability of applications. Integrated APIs and dynamic data to deliver interactive and high-performing features. Participated in project estimation, providing accurate timelines and technical insights. Collaborated closely with UX/UI designers to translate designs into pixel-perfect implementations, and worked with backend developers to ensure seamless integration of front-end and server-side logic. Applied best practices in code structure, accessibility, and SEO optimization. Maintained clear communication with stakeholders to meet requirements and deliver solutions on time.",
+    description: [
+      "Built 50+ responsive, cross-browser web applications and landing pages with React, Next.js, JavaScript/TypeScript, SCSS and Tailwind CSS.",
+      "Created a library of reusable UI components, cutting time to build a new page by ~30%.",
+      "Integrated REST APIs and headless CMS (Prismic, Contentful, Sanity, Payload), letting clients update content without developer involvement.",
+      "Optimized performance and SEO (code splitting, lazy loading, image optimization, SSR/SSG), reaching Lighthouse scores of 90+ and improving Core Web Vitals.",
+      "Turned Figma designs into pixel-perfect, accessible (a11y) UI, working with UX/UI designers and back-end developers.",
+    ],
   },
   {
-    date: "Oct 2022 – Present",
+    date: "Oct 2022 – present",
     place: "GoIT",
-    position: "Teacher, Mentor(course React)",
+    position: "React Mentor (part-time)",
     link: "https://goit.global/ua/",
-    description:
-      "Mentored students in mastering React and modern front-end development. Tracked individual progress, provided constructive feedback, and conducted in-depth code reviews. Led practical workshops, guided project implementation, and helped students strengthen their problem-solving and coding skills.",
+    description: [
+      "Mentored 100+ students in React, Redux Toolkit, JavaScript and TypeScript, performing code reviews.",
+      "Ran weekly hands-on workshops; 85%+ of mentees defended their final team projects.",
+    ],
   },
 ];
+
+export const salesExperience = {
+  date: "Mar 2007 – Apr 2021 | Ukraine",
+  position: "Consultant → Senior Key Account Manager",
+  description: [
+    "Managed key retail accounts for FMCG brands, growing account turnover by ~30% year over year.",
+    "Planned and controlled trade-marketing activities that promoted brands and met sales targets.",
+    "Trained 8 Key Account Executives in negotiation and stakeholder management.",
+  ],
+};
 
 export const softSkils = [
   "Teamwork",
@@ -296,7 +331,7 @@ export const softSkils = [
 ];
 
 export const languageSkils = [
-  "English - upper intermediate",
+  "English - Upper-Intermediate (B2)",
   "Russian - fluent",
   "Ukrainian - native",
 ];
@@ -327,6 +362,11 @@ export const contacts = [
     icon: Linkedin,
     link: "https://www.linkedin.com/in/aslanovrustam/",
   },
+  {
+    name: "Portfolio",
+    icon: Portfolio,
+    link: "https://portfolio-teal-iota-22.vercel.app/",
+  },
   // {
   //   name: "Рустам Асланов",
   //   icon: Skype,
@@ -334,6 +374,18 @@ export const contacts = [
   // },
 ];
 export const techSkils = [
+  {
+    name: "JavaScript (ES6+), TypeScript",
+    icons: [js, ts],
+  },
+  {
+    name: "React.js",
+    icons: [react],
+  },
+  {
+    name: "Next.js (SSR, SSG, App Router)",
+    icons: [next],
+  },
   {
     name: "HTML5",
     icons: [html],
@@ -343,23 +395,15 @@ export const techSkils = [
     icons: [css, sass],
   },
   {
-    name: "Tailwind",
+    name: "Tailwind CSS",
     icons: [tailwind],
   },
   {
-    name: "JS, TS",
-    icons: [js, ts],
+    name: "Testing (Vitest, Playwright E2E)",
+    icons: [vitest, playwright],
   },
   {
-    name: "React",
-    icons: [react],
-  },
-  {
-    name: "Next.js",
-    icons: [next],
-  },
-  {
-    name: "Redux, RTK",
+    name: "Redux, Redux Toolkit (RTK)",
     icons: [redux],
   },
   {
@@ -371,15 +415,23 @@ export const techSkils = [
     icons: [zustand],
   },
   {
+    name: "REST API, Module Federation (micro-frontends)",
+    icons: [],
+  },
+  {
+    name: "UI libs (Material UI, Ant Design, HeroUI), Framer Motion",
+    icons: [],
+  },
+  {
     name: "Git, GitHub, GitLab, Bitbucket",
     icons: [git, gitHub, gitLab, bitbucket],
   },
   {
-    name: "Node.js(basic)",
+    name: "Node.js (basic)",
     icons: [node],
   },
   {
-    name: "Nest.js(basic)",
+    name: "NestJS (basic)",
     icons: [nestJs],
   },
   {
