@@ -48,3 +48,11 @@ main {
   font-weight: 400;
   src: local("Stolzl"), url(./fonts/Regular.otf);
 }
+
+/* Hide anything injected by browser extensions (overlays, "select element" buttons) when saving to PDF */
+@media print {
+  html > *:not(head):not(body),
+  body > *:not(#root) {
+    display: none !important;
+  }
+}

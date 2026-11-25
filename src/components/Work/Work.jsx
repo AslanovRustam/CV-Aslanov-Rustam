@@ -1,4 +1,20 @@
+import { salesExperience } from "../../data/data";
 import s from "./work.module.css";
+
+function Description({ text }) {
+  if (!Array.isArray(text)) {
+    return <p className={s.description}>{text}</p>;
+  }
+  return (
+    <ul className={s.bullets}>
+      {text.map((item) => (
+        <li key={item} className={s.description}>
+          {item}
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export default function Work({ data }) {
   return (
@@ -6,7 +22,7 @@ export default function Work({ data }) {
       <h3 className={s.title}>Work Experience</h3>
       <ul>
         {data?.map(({ date, place, position, description, link }) => (
-          <li className={s.details} key={description}>
+          <li className={s.details} key={`${place}-${date}`}>
             <span className={s.date}>{date}</span>
             <h4 className={s.subTitle}>
               <a className={s.link} target="blank" href={link}>
@@ -14,13 +30,13 @@ export default function Work({ data }) {
               </a>
             </h4>
             <p className={s.position}>{position}</p>
-            <p className={s.description}>{description}</p>
+            <Description text={description} />
           </li>
         ))}
       </ul>
 
       <div className={s.details}>
-        <span className={s.date}>Mar 2007 - Apr 2021 | Ukraine</span>
+        <span className={s.date}>{salesExperience.date}</span>
         <h4 className={s.subTitle}>
           Sales Companies (
           <a className={s.link} target="blank" href="https://www.henkel.ua/">
@@ -40,15 +56,8 @@ export default function Work({ data }) {
           </a>
           )<span className={s.positionNot}>(not IT)</span>
         </h4>
-        <p className={s.position}>
-          Various appointments from Consultant to Senior Key Account Manager
-        </p>
-        <p className={s.description}>
-          Building sustainable mutually beneficial customer relationships.
-          Development and monitoring implementation of marketing activities
-          directed to promote brands and achieve turnover. Training of Key
-          Account Executive team
-        </p>
+        <p className={s.position}>{salesExperience.position}</p>
+        <Description text={salesExperience.description} />
       </div>
     </section>
   );
